@@ -6,9 +6,10 @@
 
 body {
   width: 100vw;
-  min-height: 100vh; /* Важно: вместо height используем min-height */
+  min-height: 100vh; 
   margin: 0 auto;
   font-family: Raleway, sans-serif;
+  overflow-x: hidden; 
 }
 
 h1,
