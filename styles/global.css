@@ -5,7 +5,8 @@
 }
 
 body {
-  width: 1100px;
+  width: 100vw;
+  min-height: 100vh; /* Важно: вместо height используем min-height */
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -16,7 +17,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 ul,
 ol,
 li,
@@ -27,6 +27,8 @@ blockquote {
 
 a {
   color: inherit;
+  text-underline-offset: 4px;
+
 }
 
 img {
