@@ -1,15 +1,17 @@
 *,
 *::before,
 *::after {
+
   box-sizing: border-box;
 }
 
 body {
+
   width: 100vw;
   min-height: 100vh; 
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-  overflow-x: hidden; 
+  margin: 0px 0px 0px 0px;
+  font-family:Raleway, sans-serif;
+  overflow-x:hidden; 
 }
 
 h1,
@@ -22,20 +24,24 @@ ul,
 ol,
 li,
 blockquote {
+
   margin: 0;
   padding: 0;
 }
 
 a {
+
   color: inherit;
   text-underline-offset: 4px;
 
 }
 
 img {
+
   width: 100%;
 }
 
 button {
+
   font: inherit;
 }
