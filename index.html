@@ -10,24 +10,27 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header"> 
+    <header class="header" id="header"> 
       <nav class="menu">
         <ul class="menu__list">
-          <li class="menu__list_item menu__list_item_no-circle"><a> главная</a></li>
-          <li class="menu__list_item"><a href="#" > посмотреть лоты </a></li>
-          <li class="menu__list_item"><a href="#"> об аукционе </a></li>
+          <li class="menu__list_item menu__list_item_no-circle"><a class="menu__list_item_link" href="#header"> главная</a></li>
+          <li class="menu__list_item"><a href="#lots" > посмотреть лоты </a></li>
+          <li class="menu__list_item"><a href="#about"> об аукционе </a></li>
         </ul>
       </nav>
       <a class="logo"><img src="images/logo-black.svg" alt="Логотип"></a>
-  <address class="contacts"> <a href="tel:+99995555555"> +9 999 555 5555</a> <a href="mailto:info@sobaka.ge">info@sobaka.ge </a> наб. Принсенграхт 263-265. Амстердам </address>
+  <address class="contacts"> 
+    <a href="tel:+99995555555"> +9 999 555 5555</a> 
+    <a href="mailto:info@sobaka.ge">info@sobaka.ge </a> наб. Принсенграхт 263-265. Амстердам 
+  </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"> </div>
         <h1 class="title"> <span class="span__first_child"> оно </span> <span class="span__second_child"> тебе</span> <span class="span__third_child"> надо </span></h1>
-        <div class="description"><p class="paragraf"><span> Аукцион вещей, в которые никто не верил </span></p><button class="button button__text"> сделать ставку</button></div>
+        <div class="description"><p class="paragraf"><span> Аукцион вещей, в которые никто не верил </span></p><a class= "button__text-link" href="#"><button class="button button__text">сделать ставку</button></a></div>
       </section>
-      <section class="lots">
+      <section class="lots" id="lots">
         <h2 class="lots__title"> Лоты</h2>
           <ul class="lots__list">
             <li class="lots__item">
@@ -72,7 +75,7 @@
         </ul>
         <a class="lots__more" href="#">посмотреть больше</a>
       </section>
-      <section class="about about__column">
+      <section class="about about__column" id="about">
           <div class="about__logo about__logo-image"><img class= "image__logo" src="images/logo-white.svg" alt="Логотип"></div>
           <div class="about__paragraf">
             <h3 class="about__title"> об аукционе </h3>
@@ -85,18 +88,21 @@
       </section>
     </main>
     <footer class="footer">
-<address class="footer__contacts"> <a href="tel:+99995555555"> +9 999 555 5555 </a> <a href="mailto:info@sobaka.ge"> info@sobaka.ge </a> наб. Принсенграхт 263-265. Амстердам </address>
+<address class="footer__contacts"> 
+  <a href="tel:+99995555555"> +9 999 555 5555</a> 
+  <a href="mailto:info@sobaka.ge">info@sobaka.ge </a> наб. Принсенграхт 263-265. Амстердам 
+</address>
       <nav class="footer__menu">
        <ul class="footer__menu-list">
-          <li><a> главная</a></li>
-          <li><a href="#" > посмотреть лоты </a></li>
-          <li><a  href="#"> об аукционе </a></li>
+          <li><a class="footer__menu-list-link" href="#header"> главная</a></li>
+          <li><a href="#lots" > посмотреть лоты </a></li>
+          <li><a href="#about"> об аукционе </a></li>
        </ul>
       </nav>
       <ul class="footer__social-list">
-        <li class="footer__social-list-item_icon_yt"><img src="images/yt.svg" alt="Youtube"></li>
-        <li class="footer__social-list-item_icon_vk"><img src="images/vk.svg" alt="Vk"></li>
-        <li class="footer__social-list-item_icon_pin"><img src="images/pinterest.svg" alt="Pinterest"></li>
+        <li class="footer__social-list-item_icon_yt"><a href="#"><img src="images/yt.svg" alt="Youtube"></a></li>
+        <li class="footer__social-list-item_icon_vk"><a href="#"><img src="images/vk.svg" alt="Vk"></a></li>
+        <li class="footer__social-list-item_icon_pin"><a href="#"><img src="images/pinterest.svg" alt="Pinterest"></a></li>
       </ul>
     </footer>
   </body>

@@ -4,7 +4,6 @@
     padding: 92px 50px 96px 52px;
     place-items: center;
     width: 1100px;
-    min-height:293px; 
     margin: 0;
     background-color: white;
 }
@@ -35,6 +34,11 @@
     list-style-type:none;
 }
 
+.menu__list_item_link{
+    display:flex;
+    text-decoration: none;
+}
+
 .logo {
     display:flex;
     width: 148px;
@@ -45,7 +49,6 @@
 .contacts {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
     width: 240px;
     height: 110px;
     text-align:left;
@@ -148,8 +151,8 @@
     width: 256px;
     height: 51px;
     border: 2px solid white;
-    align-self: center;
     background-color:transparent;
+    align-self: center;
 }
 
 .button__text {
@@ -160,6 +163,11 @@
     text-align: center;
     line-height: 100%;
     color:white;
+}
+
+.button__text-link{
+    display:flex;
+    text-decoration: none;
     z-index: 1;
 }
 
@@ -307,7 +315,6 @@
     margin-left: 47px;
     margin-top:35px;
     background-color: black;
-    background-repeat:no-repeat; 
     border-radius: 50%;
     justify-content: center;
 }
@@ -369,10 +376,8 @@
 .footer__contacts {
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 264.57px;
+    width: 262px;
     height: 98px;
-    border-width: 1px ;
     text-align:left;
     font-size: 18px;
     font-style:normal;
@@ -394,6 +399,12 @@
     list-style-type: none;
     text-align: center;
     font-size: 18px;
+}
+
+.footer__menu-list-link{
+    display:flex;
+    text-decoration: none;
+    justify-content: center;
 }
 
 .footer__social-list {
