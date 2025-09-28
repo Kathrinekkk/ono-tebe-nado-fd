@@ -34,7 +34,7 @@
     list-style-type:none;
 }
 
-.menu__list_item_link{
+.menu__list_item_link {
     display:flex;
     text-decoration: none;
 }
@@ -153,6 +153,7 @@
     border: 2px solid white;
     background-color:transparent;
     align-self: center;
+    z-index: 1;
 }
 
 .button__text {
@@ -165,10 +166,9 @@
     color:white;
 }
 
-.button__text-link{
+.button__text-link {
     display:flex;
     text-decoration: none;
-    z-index: 1;
 }
 
 .lots {
@@ -401,7 +401,7 @@
     font-size: 18px;
 }
 
-.footer__menu-list-link{
+.footer__menu-list-link {
     display:flex;
     text-decoration: none;
     justify-content: center;
