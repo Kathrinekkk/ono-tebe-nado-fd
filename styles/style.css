@@ -166,11 +166,6 @@
     color:white;
 }
 
-.button__text-link {
-    display:flex;
-    text-decoration: none;
-}
-
 .lots {
     width: 1052px;
     height: 723px;
