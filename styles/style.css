@@ -58,7 +58,7 @@
     display:grid;
     position: relative;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -179,13 +179,12 @@
     align-self: center;
     justify-content: center;
     width: 334px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .card {
     position: relative;
     width: 334px;
-    height: 596px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -263,7 +262,6 @@
 
 .about {
     width: 1052px;
-    height:595px;
     margin: 120px 23px 0px 24px;
     display:grid;
     grid-template-columns: 334px 738px;
@@ -331,7 +329,7 @@
     width: 1100px;
     grid-template-columns: repeat(3,1fr);
     place-items:center;
-    margin-top: 150px;
+    margin-top: 180px;
 }
 
 .footer__contacts {
@@ -380,5 +378,5 @@
 
 .footer__social-list-item {
     width: 48px;
-    height: 48px;
+    min-height: 48px;
 }
