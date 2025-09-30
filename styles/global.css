@@ -9,6 +9,7 @@ body {
   width: 1100px;
   font-family: Raleway, sans-serif;
   margin: 0;
+  place-self: center;
 }
 
 h1,
@@ -20,6 +21,7 @@ h6,
 ul,
 ol,
 li,
+p,
 blockquote {
   margin: 0;
   padding: 0;
@@ -40,5 +42,4 @@ button {
 
 main {
   width: 1100px;
-  min-height: 100vh;
 }
