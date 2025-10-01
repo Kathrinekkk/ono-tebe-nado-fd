@@ -51,7 +51,7 @@
     font-style: normal;
 }
 
-.address__block-header{
+.address__block-header {
     width: 240px;
     padding: 6px 0px 6px 32px;
     line-height: 25px;
@@ -334,7 +334,7 @@
     margin-top: 180px;
 }
 
-.address__block-footer{
+.address__block-footer {
     width: 262px;
     padding-left:0;
     padding-bottom: 82px;
